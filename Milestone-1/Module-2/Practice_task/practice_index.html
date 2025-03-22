@@ -1,0 +1,110 @@
+<!--Module-2 Practice Tasks-->
+<!--Task-1
+***CSS Types Challenge***
+1. create an HTML document with three paragraphs
+2. Apply CSS styles to each paragraph using inline, inline CSS, internal CSS, External CSS 
+    Task-2
+***Text Styling Challenge***
+1. Design a webpage with a heading, paragraphs and a list.
+2. Apply CSS styles to change the text color, alignment, font size, font family and font style for different elements.
+    Tesk-3
+***Selectors Challenge***
+1. Create an HTML document with various element, including headings, paragraphs and divs.
+2. Use different CSS selectors(id, class, universal, tag) to apply unique styles to specific elements.
+    Tesk-4
+***Background Styling Challenge***
+1. Design a webpage with multiple sections/ divs. 
+2. Apply CSS styles to set different background colors, images, repeats, positions and sizes for each section. 
+    Tesk-5
+***Borders Challenge***
+1.Create a webpage with various elements, such as divs, paragraphs and images.
+2.Apply CSS styles to add borders with different widths, colors, border-radious and box-shadow effects to the elements.
+    Tesk-6
+***Displays Challenge***
+1.Build a webpage with different elements(e.g., images, headings, paragraphs, buttons)
+2.Apply CSS styles to set the display property to none, hidden, inline block, and inline-block for specific elements   -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice_style.css">
+    <style>
+        .para {
+            background-color: aqua;
+            color: black;
+            border: 10px solid red;
+            padding: 10px;
+            
+            /* width: 600px; */
+            border-radius: 10px;
+            margin: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p
+        style="color: white; background-color: blue;  border:10px solid green; padding: 10px; border-radius: 10px; margin: 20px; text-align: justify; box-shadow: 10px 20px 10px rgb(94, 90, 90);">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur commodi repudiandae laborum odio quidem saepe
+        ad voluptate sunt! Quidem rerum amet obcaecati at corrupti perferendis blanditiis consectetur dicta eum est.
+        Sit numquam alias reiciendis qui suscipit, molestiae libero quia, deserunt eos laborum quam maxime non quasi!
+        Magni quidem mollitia laudantium harum, rem libero et itaque. Necessitatibus nostrum expedita natus sint.
+    </p>
+
+    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur commodi repudiandae laborum odio
+        quidem saepe
+        ad voluptate sunt! <span class="span">Quidem rerum</span> amet obcaecati at corrupti perferendis blanditiis consectetur dicta eum est.
+        Sit numquam alias reiciendis qui suscipit, molestiae libero quia, deserunt eos laborum quam maxime non quasi!
+        Magni quidem mollitia laudantium harum, rem libero et itaque. Necessitatibus nostrum expedita natus sint.
+    </p>
+
+    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur commodi repudiandae laborum
+        odio quidem saepe
+        ad voluptate sunt! Quidem rerum amet obcaecati at corrupti perferendis blanditiis consectetur dicta eum est.
+        Sit numquam alias reiciendis qui suscipit, molestiae libero quia, deserunt eos laborum quam maxime non quasi!
+        Magni quidem mollitia laudantium harum, rem libero et itaque. Necessitatibus nostrum expedita natus sint.
+    </p>
+
+
+    <h1 class="head">This is the second Module-2 Practice Task-2</h1>
+    <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quae provident aut quasi cum. Dicta, voluptatem
+        animi in hic voluptatum vel rem exercitationem quia illum placeat temporibus possimus, ipsum laborum!
+
+    </p>
+
+    <ul class="ul">
+        <li>Apple</li>
+        <li>Orage</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Lemon</li>
+    </ul>
+
+    <div class="div">
+        <h1 class="head">This is the second Module-2 Practice Task-3</h1>
+        <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quae provident aut quasi cum. Dicta, voluptatem
+            animi in hic voluptatum vel rem exercitationem quia illum placeat temporibus possimus, ipsum laborum!
+    
+        </p>
+    
+        <ul id="li">
+            <li>Apple</li>
+            <li>Orage</li>
+            <li id="list">Mango</li>
+            <li>Banana</li>
+            <li>Lemon</li>
+        </ul>
+
+        <button class="button">Click Here</button>
+    </div>
+
+</body>
+
+</html>

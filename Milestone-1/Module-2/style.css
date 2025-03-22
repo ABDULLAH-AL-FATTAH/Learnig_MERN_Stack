@@ -1,0 +1,43 @@
+
+.header{
+    height: 300px;
+    /* background-image: url('welcome.png'); */
+    background-image: url('../Module-2/img/welcome-2.jpeg');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+    background-size: 500px;
+}
+
+h3{
+    color: red;
+    text-decoration: overline;
+    /* text-decoration: underline; */
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    background-color: azure;
+    display: none;
+}
+.blog{
+    margin: 30px;
+    box-shadow: 20px 20px 10px  rgb(100, 69, 129); /* 20px 20px 10px = x y spread */
+}
+.inside{
+    color: red;
+    border: 1px solid red;
+    display: block;
+
+}
+
+.dolor{
+    border: 2px solid blueviolet;
+    height: 60px;
+    /* display: block; */
+    display: inline-block;
+    /* display: inline; */
+}

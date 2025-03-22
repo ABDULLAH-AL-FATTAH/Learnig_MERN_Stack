@@ -1,0 +1,228 @@
+
+Obtained Marks: 26/30
+All Wrong answer indicate * before its serial number.
+
+
+
+### **HTML Quiz**
+
+#### **1-2 HTML Text: Creating paragraphs, Text formatting (b, i, strong, em)**
+1. Which tag is used to create a paragraph in HTML?  
+   a) `<p>`  
+   b) `<para>`  
+   c) `<text>`  
+   d) `<pg>`  
+
+2. Which tag is used to make text bold?  
+   a) `<bold>`  
+   b) `<b>`  
+   c) `<strong>`  
+   d) Both b and c  
+
+3. What is the difference between `<strong>` and `<b>` tags?  
+   a) `<strong>` is for bold text, `<b>` is for important text.  
+   b) `<strong>` indicates semantic importance, `<b>` is just for styling.  
+   c) There is no difference.  
+   d) `<strong>` is deprecated in HTML5.  
+
+4. True or False: The `<em>` tag is used to italicize text and also adds semantic emphasis.  
+
+---
+
+#### **1-3 HTML Text: Headings, small, and inline vs block (div, span)**
+5. How many levels of headings are available in HTML?  
+   a) 4  
+   b) 5  
+   c) 6  
+   d) 7  
+
+6. Which tag is used to make text smaller than the surrounding text?  
+   a) `<small>`  
+   b) `<tiny>`  
+   c) `<mini>`  
+   d) `<reduce>`  
+
+7. What is the difference between `<div>` and `<span>`?  
+   a) `<div>` is inline, `<span>` is block-level.  
+   b) `<div>` is block-level, `<span>` is inline.  
+   c) Both are block-level elements.  
+   d) Both are inline elements.  
+
+*8. True or False: Headings (`<h1>` to `<h6>`) are block-level elements.  
+
+---
+
+#### **1-4 HTML List: Container tag, list tags (ol, ul, li), line break, button**
+9. Which tag is used to create an ordered list?  
+   a) `<ul>`  
+   b) `<ol>`  
+   c) `<li>`  
+   d) `<list>`  
+
+10. What is the purpose of the `<li>` tag?  
+    a) To define a list item.  
+    b) To create a line break.  
+    c) To define a list container.  
+    d) To create a button.  
+
+11. Which tag is used to create a line break in HTML?  
+    a) `<br>`  
+    b) `<lb>`  
+    c) `<break>`  
+    d) `<newline>`  
+
+12. True or False: The `<button>` tag is used to create clickable buttons in HTML.  
+
+---
+
+#### **1-5 HTML Link: Creating links with the anchor tag and its attributes (href, target)**
+13. Which tag is used to create a hyperlink in HTML?  
+    a) `<link>`  
+    b) `<a>`  
+    c) `<href>`  
+    d) `<hyperlink>`  
+
+14. Which attribute specifies the URL of the page the link goes to?  
+    a) `src`  
+    b) `link`  
+    c) `href`  
+    d) `url`  
+
+*15. What does the `target="_blank"` attribute do in an anchor tag?  
+    a) Opens the link in the same tab.  
+    b) Opens the link in a new tab.  
+    c) Opens the link in a new window.  
+    d) Both b and c.  
+
+*16. True or False: The `<a>` tag can only be used to link to external websites.  
+
+---
+
+#### **1-6 HTML Image: Display online image, local image, folder image**
+17. Which tag is used to display an image in HTML?  
+    a) `<img>`  
+    b) `<image>`  
+    c) `<pic>`  
+    d) `<photo>`  
+
+18. Which attribute is required in the `<img>` tag to display an image?  
+    a) `src`  
+    b) `alt`  
+    c) `href`  
+    d) `link`  
+
+19. What does the `alt` attribute in the `<img>` tag do?  
+    a) Specifies the image source.  
+    b) Provides alternative text for the image.  
+    c) Defines the image size.  
+    d) Links the image to another page.  
+
+20. True or False: You can use both local and online images in HTML using the `<img>` tag.  
+
+---
+
+#### **1-7 HTML Form: input types, buttons, select, option, login form**
+21. Which tag is used to create an input field in HTML?  
+    a) `<input>`  
+    b) `<textfield>`  
+    c) `<form>`  
+    d) `<field>`  
+
+22. Which input type is used for a password field?  
+    a) `type="text"`  
+    b) `type="password"`  
+    c) `type="hidden"`  
+    d) `type="secret"`  
+
+*23. Which tag is used to create a dropdown list in HTML?  
+    a) `<dropdown>`  
+    b) `<select>`  
+    c) `<list>`  
+    d) `<option>`  
+
+24. True or False: The `<option>` tag is used inside the `<select>` tag to define dropdown options.  
+
+---
+
+#### **1-8 HTML Structure: Doctype, html, head, meta, title, body**
+25. What is the purpose of the `<!DOCTYPE html>` declaration?  
+    a) To define the document type as HTML5.  
+    b) To link to an external stylesheet.  
+    c) To declare the document as XML.  
+    d) To define the document as XHTML.  
+
+26. Which tag contains the metadata of an HTML document?  
+    a) `<body>`  
+    b) `<head>`  
+    c) `<meta>`  
+    d) `<title>`  
+
+27. What is the purpose of the `<title>` tag?  
+    a) To define the main heading of the page.  
+    b) To display the title in the browser tab.  
+    c) To define the page's metadata.  
+    d) To link to an external resource.  
+
+28. True or False: The `<body>` tag contains all the visible content of an HTML page.  
+
+---
+
+#### **1-9 HTML Overview: Basic HTML concepts and practice task**
+29. What is the correct order of HTML tags in a basic HTML document?  
+    a) `<html>`, `<head>`, `<body>`, `<!DOCTYPE html>`  
+    b) `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`  
+    c) `<head>`, `<body>`, `<html>`, `<!DOCTYPE html>`  
+    d) `<!DOCTYPE html>`, `<body>`, `<head>`, `<html>`  
+
+30. Write the HTML code to create a simple webpage with a heading, a paragraph, and an image.  
+
+---
+
+### **Answer Key**
+1. a) `<p>`  
+2. d) Both b and c  
+3. b) `<strong>` indicates semantic importance, `<b>` is just for styling.  
+4. True  
+5. c) 6  
+6. a) `<small>`  
+7. b) `<div>` is block-level, `<span>` is inline.  
+8. True  
+9. b) `<ol>`  
+10. a) To define a list item.  
+11. a) `<br>`  
+12. True  
+13. b) `<a>`  
+14. c) `href`  
+15. d) Both b and c.  
+16. False  
+17. a) `<img>`  
+18. a) `src`  
+19. b) Provides alternative text for the image.  
+20. True  
+21. a) `<input>`  
+22. b) `type="password"`  
+23. b) `<select>`  
+24. True  
+25. a) To define the document type as HTML5.  
+26. b) `<head>`  
+27. b) To display the title in the browser tab.  
+28. True  
+29. b) `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`  
+30. Example:  
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple webpage with an image.</p>
+    <img src="image.jpg" alt="Sample Image">
+</body>
+</html>
+```
+
+---
+
+Let me know if you'd like to add more questions or modify the quiz!

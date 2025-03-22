@@ -1,0 +1,204 @@
+Obtained Marks: 21/30
+All Wrong answer indicate * before its serial number.
+
+
+
+### **CSS Quiz**
+
+#### **2-1 Introduction to CSS and CSS types (inline, internal, external)**
+1. Which of the following is NOT a type of CSS?  
+   a) Inline CSS  
+   b) Internal CSS  
+   c) External CSS  
+   d) Embedded CSS  
+
+2. Where is internal CSS written?  
+   a) In a separate `.css` file  
+   b) Inside the `<body>` tag  
+   c) Inside the `<style>` tag in the `<head>` section  
+   d) Inside the HTML tag using the `style` attribute  
+
+*3. True or False: External CSS is the most recommended way to apply styles because it separates content from design.  
+
+4. Write the syntax to link an external CSS file named `styles.css` to an HTML document.  
+
+---
+
+#### **2-2 CSS Text: text color, text alignment, text decoration, font size, font family, font-style**
+5. Which CSS property is used to change the color of text?  
+   a) `font-color`  
+   b) `text-color`  
+   c) `color`  
+   d) `text-style`  
+
+6. How do you align text to the center using CSS?  
+   a) `text-align: center;`  
+   b) `align: center;`  
+   c) `text-position: center;`  
+   d) `center-align: true;`  
+
+7. Which property is used to underline text in CSS?  
+   a) `text-decoration: underline;`  
+   b) `text-style: underline;`  
+   c) `font-decoration: underline;`  
+   d) `underline: true;`  
+
+8. True or False: The `font-family` property is used to specify the typeface of the text.  
+
+---
+
+#### **2-3 CSS Selectors (basic): id, class, universal, tags, grouping, attribute, id vs class**
+9. Which symbol is used to select an element by its ID in CSS?  
+   a) `.`  
+   b) `#`  
+   c) `*`  
+   d) `@`  
+
+10. What is the universal selector in CSS?  
+    a) `*`  
+    b) `#`  
+    c) `.`  
+    d) `&`  
+
+*11. Which selector is used to apply styles to all `<p>` elements?  
+    a) `#p`  
+    b) `.p`  
+    c) `p`  
+    d) `*p`  
+
+12. True or False: A class selector can be used multiple times on a single page, while an ID selector can only be used once.  
+
+---
+
+#### **2-4 Mixed Selectors: multiple classes, combined selectors, attribute, div, span**
+*13. How do you apply styles to an element with multiple classes?  
+    a) `.class1.class2`  
+    b) `.class1, .class2`  
+    c) `.class1 + .class2`  
+    d) `.class1 > .class2`  
+
+14. Which selector is used to target an element with a specific attribute?  
+    a) `[attribute]`  
+    b) `attribute()`  
+    c) `#attribute`  
+    d) `.attribute`  
+
+15. True or False: The `<div>` tag is a block-level element, while the `<span>` tag is an inline element.  
+
+*16. Write the CSS code to select all `<a>` elements with a `target` attribute set to `_blank`.  
+
+---
+
+#### **2-5 CSS Borders: Border, border-radius, Margin, different ways to set margin**
+17. Which property is used to create rounded corners in CSS?  
+    a) `border-round`  
+    b) `corner-radius`  
+    c) `border-radius`  
+    d) `round-border`  
+
+18. How do you set a margin of 10px on all sides of an element?  
+    a) `margin: 10px;`  
+    b) `margin: 10px 10px 10px 10px;`  
+    c) `margin: 10px auto;`  
+    d) Both a and b  
+
+19. True or False: The `border` property requires all three values: `width`, `style`, and `color`.  
+
+*20. Write the CSS code to set a solid red border with a width of 2px and a border radius of 5px.  
+
+---
+
+#### **2-6 CSS Box Model: Padding, border, content, height, width**
+21. Which property is used to add space inside an element, between the content and the border?  
+    a) `margin`  
+    b) `padding`  
+    c) `spacing`  
+    d) `border-space`  
+
+22. What is the correct order of the box model components from outermost to innermost?  
+    a) Margin, Border, Padding, Content  
+    b) Border, Margin, Padding, Content  
+    c) Padding, Border, Margin, Content  
+    d) Content, Padding, Border, Margin  
+
+*23. True or False: The `width` property in CSS only includes the content area, not padding or border.  
+
+*24. Write the CSS code to set a padding of 15px on the top and bottom, and 10px on the left and right.  
+
+---
+
+#### **2-7 CSS Display: none, hidden, inline, block, inline-block, box-shadow**
+25. Which display property value completely removes an element from the document flow?  
+    a) `none`  
+    b) `hidden`  
+    c) `inline`  
+    d) `block`  
+
+*26. What is the difference between `inline` and `inline-block` display properties?  
+    a) `inline` allows setting width and height, while `inline-block` does not.  
+    b) `inline-block` allows setting width and height, while `inline` does not.  
+    c) Both allow setting width and height.  
+    d) Neither allows setting width and height.  
+
+27. True or False: The `box-shadow` property is used to add a shadow effect to an element.  
+
+*28. Write the CSS code to hide an element without removing it from the document flow.  
+
+---
+
+#### **2-8 CSS Background: color, image, repeat, position, size, relative image path**
+29. Which property is used to set a background image in CSS?  
+    a) `background-img`  
+    b) `background-image`  
+    c) `image-background`  
+    d) `bg-image`  
+
+30. How do you prevent a background image from repeating?  
+    a) `background-repeat: no-repeat;`  
+    b) `background-repeat: stop;`  
+    c) `background-repeat: none;`  
+    d) `background-repeat: false;`  
+
+31. True or False: The `background-position` property is used to specify the starting position of a background image.  
+
+*32. Write the CSS code to set a background color of `#f0f0f0` and a background image `image.jpg` that is centered and does not repeat.  
+
+---
+
+### **Answer Key**
+1. d) Embedded CSS  
+2. c) Inside the `<style>` tag in the `<head>` section  
+3. True  
+4. `<link rel="stylesheet" href="styles.css">`  
+5. c) `color`  
+6. a) `text-align: center;`  
+7. a) `text-decoration: underline;`  
+8. True  
+9. b) `#`  
+10. a) `*`  
+11. c) `p`  
+12. True  
+13. a) `.class1.class2`  
+14. a) `[attribute]`  
+15. True  
+16. `a[target="_blank"] { ... }`  
+17. c) `border-radius`  
+18. d) Both a and b  
+19. True  
+20. `border: 2px solid red; border-radius: 5px;`  
+21. b) `padding`  
+22. a) Margin, Border, Padding, Content  
+23. True  
+24. `padding: 15px 10px;`  
+25. a) `none`  
+26. b) `inline-block` allows setting width and height, while `inline` does not.  
+27. True  
+28. `visibility: hidden;`  
+29. b) `background-image`  
+30. a) `background-repeat: no-repeat;`  
+31. True  
+32. `background-color: #f0f0f0; background-image: url('image.jpg'); background-position: center; background-repeat: no-repeat;`  
+
+---
+
+Let me know if you’d like to add more questions or modify the quiz!

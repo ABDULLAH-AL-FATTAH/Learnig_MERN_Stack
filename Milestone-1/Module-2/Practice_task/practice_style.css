@@ -1,0 +1,58 @@
+.paragraph {
+    background-color: rgba(64, 0, 255, 0.684);
+    color: black;
+    border: 10px solid yellowgreen;
+    padding: 10px;
+    /* width: 600px; */
+    border-radius: 10px;
+    margin: 20px;
+    text-align: justify;
+
+    box-shadow: 10px 20px 10px rgba(5, 62, 85, 0.427);
+}
+
+.head {
+    color: rgb(187, 23, 1);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.parag {
+    color: green;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+
+#li {
+    color: rgba(0, 106, 255, 0.635);
+}
+
+#list {
+    color: blue;
+}
+
+.div{
+    background-color: cadetblue;
+    background-image: url('bg_img.jpeg');
+    text-align: justify;
+    padding: 10px;
+    background-repeat: repeat;
+    position: absolute;
+}
+.span{
+    color: red;
+    border: 2px solid rgb(8, 0, 255);
+    height: 50px;
+    display: block;
+}
+.button{
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    /* display: none; */
+    position: relative;
+    
+}
