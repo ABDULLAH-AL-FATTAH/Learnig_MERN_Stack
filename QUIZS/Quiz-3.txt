@@ -1,0 +1,169 @@
+Obtained Marks: 23.5/30
+All Wrong answer indicate * before its serial number.
+
+
+# **Git & GitHub Quiz**  
+
+
+---
+
+### **Section 1: Version Control, Git vs. GitHub**  
+1. **What is a Version Control System (VCS)?**  
+   a) A tool to manage changes to files over time  
+   b) A cloud storage service like Google Drive  
+   c) A programming language  
+   d) A debugging tool  
+
+2. **What is the difference between Git and GitHub?**  
+   a) Git is a version control system; GitHub is a hosting service for Git repositories  
+   b) Git is a cloud service; GitHub is a local tool  
+   c) They are the same thing  
+   d) Git is for code, GitHub is for documents  
+
+3. **True or False:** GitHub is the only platform that supports Git repositories.  
+
+---
+
+### **Section 2: Creating & Exploring GitHub Repositories**  
+4. **What is a GitHub repository?**  
+   a) A folder containing project files and version history  
+   b) A chat room for developers  
+   c) A backup service for databases  
+   d) A social media profile  
+
+5. **Which of the following can you do on GitHub?**  
+   a) Store and manage code  
+   b) Track issues and bugs  
+   c) Collaborate with other developers  
+   d) All of the above  
+
+6. **True or False:** A GitHub repository must always be public.  
+
+---
+
+### **Section 3: Basic Git Commands**  
+7. **What does `git init` do?**  
+   a) Downloads a repository from GitHub  
+   b) Creates a new Git repository in the current folder  
+   c) Deletes all commit history  
+   d) Updates Git to the latest version  
+
+*8. **Which command stages changes for the next commit?**  
+   a) `git commit`  
+   b) `git push`  
+   c) `git add`  
+   d) `git init`  
+
+9. **What does `git commit -m "message"` do?**  
+   a) Sends changes to GitHub  
+   b) Saves changes with a description in the local repository  
+   c) Deletes previous commits  
+   d) Creates a new branch  
+
+---
+
+### **Section 4: Pushing Changes to GitHub**  
+10. **Which command uploads local commits to GitHub?**  
+    a) `git pull`  
+    b) `git push`  
+    c) `git clone`  
+    d) `git fetch`  
+
+11. **Before running `git push`, what must you do first?**  
+    a) Run `git init`  
+    b) Run `git add` and `git commit`  
+    c) Delete the repository  
+    d) Nothing, `git push` works alone  
+
+12. **True or False:** `git push` automatically sends all local changes to GitHub without committing.  
+
+---
+
+### **Section 5: Common GitHub Issues for Beginners**  
+13. **What happens if you try to `git push` without setting a remote?**  
+    a) Git creates a new repository automatically  
+    b) You get an error: "No remote repository specified"  
+    c) Changes are saved locally but not uploaded  
+    d) GitHub prompts you to log in  
+
+14. **What should you do if you see "Permission denied" when pushing?**  
+    a) Check if you have SSH/GitHub access configured  
+    b) Delete the repository  
+    c) Ignore the error  
+    d) Use `git pull` instead  
+
+15. **True or False:** If two people edit the same file, Git always auto-merges without conflicts.  
+
+---
+
+### **Section 6: Git Workflow & Advanced Topics**  
+*16. **What is a Git branch?**  
+    a) A separate line of development  
+    b) A backup of the repository  
+    c) A GitHub profile feature  
+    d) A debugging tool  
+
+*17. **How do you create a new branch?**  
+    a) `git branch new-branch`  
+    b) `git checkout -b new-branch`  
+    c) `git create branch new-branch`  
+    d) Both a and b  
+
+18. **What is a pull request (PR)?**  
+    a) A request to merge changes into another branch  
+    b) A way to delete old commits  
+    c) A GitHub error message  
+    d) A command to undo changes  
+
+*19. **True or False:** Only repository owners can merge pull requests.  
+
+20. **What is `git merge` used for?**  
+    a) Combining changes from one branch into another  
+    b) Deleting old branches  
+    c) Creating new repositories  
+    d) Reverting commits  
+
+
+
+21 ### **Bonus Task (Practical)**  
+**Write the correct Git commands for:**    7.5/10 marks 
+    1. Initialize a new Git repo.  
+    2. Stage all changes.  
+    3. Commit with the message "First commit".  
+    4. Push to a remote repository named `origin` on the `main` branch.  
+
+
+
+
+---
+
+## **Answer Key**  
+1. **a**  
+2. **a**  
+3. **False** (GitLab, Bitbucket also support Git)  
+4. **a**  
+5. **d**  
+6. **False** (Can be public or private)  
+7. **b**  
+8. **c**  
+9. **b**  
+10. **b**  
+11. **b**  
+12. **False** (Must commit first)  
+13. **b**  
+14. **a**  
+15. **False** (Conflicts can occur)  
+16. **a**  
+17. **d**  
+18. **a**  
+19. **False** (Depends on repo settings)  
+20. **a**  
+
+---
+21. **Answer:**  
+```bash
+git init  
+git add .  
+git commit -m "First commit"  
+git push -u origin main  
+```
