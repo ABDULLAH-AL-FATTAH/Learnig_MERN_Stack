@@ -21,3 +21,8 @@ article{
 article>section>p{
     text-align: justify;
 }
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
