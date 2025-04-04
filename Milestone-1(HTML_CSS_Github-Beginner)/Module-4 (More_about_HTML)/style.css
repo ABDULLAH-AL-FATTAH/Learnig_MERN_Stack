@@ -1,0 +1,23 @@
+nav{
+    text-align: center;
+}
+nav>ul>li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li>a {
+    text-decoration: none;
+}
+
+footer{
+    margin: 30px;
+    text-align: center;
+}
+article{
+    text-align: center;
+}
+
+article>section>p{
+    text-align: justify;
+}
