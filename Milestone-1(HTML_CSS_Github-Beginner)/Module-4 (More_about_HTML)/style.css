@@ -1,13 +1,24 @@
 nav{
     text-align: center;
 }
-nav>ul>li {
-    display: inline;
+nav>ul{
+    /* display: inline; */
+    display: flex;
+}
+
+nav li{
+    list-style: none;
     margin-right: 15px;
+    padding: 5px;
 }
 
 nav li>a {
     text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background-color: rgb(77, 77, 153);
 }
 
 footer{
