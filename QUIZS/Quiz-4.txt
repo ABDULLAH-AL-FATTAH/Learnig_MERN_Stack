@@ -1,0 +1,178 @@
+Quiz-4
+
+Obtained Marks: 21/30
+All Wrong answer indicate * before its serial number.
+
+
+
+# **HTML5 & Advanced HTML Quiz**  
+Test your knowledge of HTML5, semantic elements, forms, tables, and navigation.  
+
+---
+
+## **Section 1: HTML5 Basics (Audio, Video, iframe)**  
+1. **What is the main difference between HTML and HTML5?**  
+   a) HTML5 supports multimedia (audio, video) without plugins  
+   b) HTML5 is a programming language  
+   c) HTML5 does not support forms  
+   d) HTML5 is only for mobile apps  
+
+2. **Which tag is used to embed a YouTube video?**  
+   a) `<video>`  
+   b) `<iframe>`  
+   c) `<embed>`  
+   d) `<youtube>`  
+
+3. **Which HTML5 tag is used for audio playback?**  
+   a) `<sound>`  
+   b) `<mp3>`  
+   c) `<audio>`  
+   d) `<music>`  
+
+*4. **True or False:** The `<video>` tag requires Flash to work.  
+
+---
+
+## **Section 2: HTML5 Semantic Tags**  
+*5. **Which tag represents the main content of a webpage?**  
+   a) `<header>`  
+   b) `<main>`  
+   c) `<content>`  
+   d) `<body>`  
+
+6. **Which tag is used for a navigation menu?**  
+   a) `<nav>`  
+   b) `<menu>`  
+   c) `<links>`  
+   d) `<navbar>`  
+
+7. **What does the `<article>` tag represent?**  
+   a) A standalone piece of content (blog post, news article)  
+   b) A footer section  
+   c) A sidebar  
+   d) A form  
+
+*8. **True or False:** `<section>` and `<div>` are interchangeable.  
+
+---
+
+## **Section 3: HTML Forms**  
+9. **Which attribute links a `<label>` to an `<input>`?**  
+   a) `for`  
+   b) `id`  
+   c) `name`  
+   d) `link`  
+
+*10. **What is the purpose of `<fieldset>`?**  
+    a) Groups related form elements  
+    b) Creates a submit button  
+    c) Adds a border to the form  
+    d) Hides form inputs  
+
+11. **Which input type allows multiple selections?**  
+    a) `radio`  
+    b) `checkbox`  
+    c) `text`  
+    d) `select`  
+
+*12. **True or False:** `<textarea>` is used for single-line text input.  
+
+---
+
+## **Section 4: HTML Tables**  
+13. **Which tag defines a table header cell?**  
+    a) `<td>`  
+    b) `<th>`  
+    c) `<thead>`  
+    d) `<tr>`  
+
+14. **How do you merge two table columns?**  
+    a) `colspan`  
+    b) `rowspan`  
+    c) `merge`  
+    d) `span`  
+
+15. **Which tag groups the footer content in a table?**  
+    a) `<tfoot>`  
+    b) `<footer>`  
+    c) `<table-end>`  
+    d) `<bottom>`  
+
+*16. **True or False:** `<caption>` must always be inside `<thead>`.  
+
+---
+
+## **Section 5: Navigation & Dropdown Menus**  
+17. **How do you create a simple navbar with links?**  
+    a) `<div class="navbar"><a href="#">Link</a></div>`  
+    b) `<nav><a href="#">Link</a></nav>`  
+    c) `<menu><a href="#">Link</a></menu>`  
+    d) `<ul class="navbar"><li><a href="#">Link</a></li></ul>`  
+
+18. **What is needed for a dropdown menu on hover?**  
+    a) Only HTML  
+    b) HTML + CSS  
+    c) HTML + JavaScript  
+    d) Only CSS  
+
+*19. **True or False:** Internal page navigation uses `<a href="#section-id">`.  
+
+20. **Which tag is used for a clickable navigation button?**  
+    a) `<button>`  
+    b) `<a>`  
+    c) `<nav-button>`  
+    d) Both a and b  
+
+21. **Create a simple HTML5 page with:**  
+	- A `<header>` with a `<nav>` menu  
+	- A `<main>` section with an embedded YouTube video  
+	- A `<footer>` with copyright info  
+---
+
+## **Answer Key**  
+1. **a**  
+2. **b**  
+3. **c**  
+4. **False** (HTML5 uses native browser playback)  
+5. **b**  
+6. **a**  
+7. **a**  
+8. **False** (`<section>` has semantic meaning)  
+9. **a**  
+10. **a**  
+11. **b**  
+12. **False** (`<textarea>` is for multi-line text)  
+13. **b**  
+14. **a**  
+15. **a**  
+16. **False** (`<caption>` can be inside `<table>`)  
+17. **b or d** (Both are valid)  
+18. **b or c** (CSS-only is possible, but JS enhances it)  
+19. **True**  
+20. **d**  
+
+
+21.**Answer:**  
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML5 Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome!</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
