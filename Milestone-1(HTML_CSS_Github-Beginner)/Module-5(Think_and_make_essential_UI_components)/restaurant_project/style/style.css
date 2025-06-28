@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    /* how to calculate the picture w/h to fit your browser window> go to inspect> 
+        console> write 'window.innerHeight' enter> suppose picture width is 1920px and your 
+        browser window is 1364px, now 1364/1920=71%(968px) 
+        & for  height 919*71%=652px is fit for your browser*/
+    height: 652px;
+    background-image: linear-gradient(0deg,
+            rgb(9, 9, 9) 3.482%,
+            rgba(16, 16, 16, 0) 101.632%),
+        url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero .hero-content{
+    width: 726px;
+}
